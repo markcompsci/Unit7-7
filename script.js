@@ -8,7 +8,7 @@ MULTIPLICATION_DIV.appendChild(RESULT)
 
 // Since it doesn't matter if x is being added y times or vice versa, i just chose the first num to be the repeater and the second num to be added (first num) amount of times
 
-function calc () {
+function calc() {
   let result = 0
   for (let i = 0; i < Math.abs(FIRST_NUM.value); i++) {
     result += parseInt(SECOND_NUM.value)
